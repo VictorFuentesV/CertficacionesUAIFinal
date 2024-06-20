@@ -1,0 +1,100 @@
+/* Estilos generales */
+.language-switcher-container {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #343a40;
+  padding: 5px;
+}
+
+.language-switcher-button {
+  background-color: #343a40;
+  color: #ffffff;
+  border: none;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.language-switcher-button:hover {
+  background-color: #495057;
+}
+
+.language-switcher-dropdown {
+  position: absolute;
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.language-switcher-dropdown button {
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  padding: 5px;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.language-switcher-dropdown button:hover {
+  background-color: #495057;
+}
+
+.language-switcher-dropdown button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Estilos responsivos */
+
+/* Smartphone */
+@media (max-width: 767px) {
+  .language-switcher-container {
+    justify-content: center;
+  }
+
+  .language-switcher-button {
+    font-size: 12px;
+  }
+
+  .language-switcher-dropdown {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .language-switcher-container {
+    padding: 5px;
+  }
+
+  .language-switcher-button {
+    font-size: 14px;
+    padding: 5px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+  .language-switcher-container {
+    padding: 5px;
+  }
+
+  .language-switcher-button {
+    font-size: 16px;
+    padding: 5px;
+  }
+}

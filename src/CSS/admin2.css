@@ -1,0 +1,147 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container-sm {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+  
+  table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #f8f9fa;
+  }
+  
+  th,
+  td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Ajustes específicos para el selector del formulario */
+  form select {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    box-sizing: border-box;
+  }
+  
+  /* Media Queries */
+  
+  /* Desktop */
+  @media (max-width: 1200px) {
+    .container-sm {
+      padding: 0 2rem;
+    }
+  
+    table {
+      font-size: 0.9rem;
+    }
+  
+    th,
+    td {
+      padding: 0.5rem;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    form select {
+      font-size: 0.9rem;
+      padding: 0.4rem;
+    }
+  }
+  
+  /* Tablet */
+  @media (max-width: 768px) {
+    .container-sm {
+      padding: 0 1rem;
+    }
+  
+    table {
+      font-size: 0.8rem;
+    }
+  
+    th,
+    td {
+      padding: 0.4rem;
+    }
+  
+    h1 {
+      font-size: 1.6rem;
+    }
+  
+    form select {
+      font-size: 0.8rem;
+      padding: 0.3rem;
+    }
+  }
+  
+  /* Smartphone */
+  @media (max-width: 576px) {
+    .container-sm {
+      padding: 0 0.5rem;
+    }
+  
+    table {
+      font-size: 0.7rem;
+    }
+  
+    th,
+    td {
+      padding: 0.3rem;
+    }
+  
+    h1 {
+      font-size: 1.4rem;
+    }
+  
+    form select {
+      font-size: 0.7rem;
+      padding: 0.2rem;
+    }
+  
+    /* Ajustes para que la tabla sea scrollable en pantallas pequeñas */
+    table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  
+    th,
+    td {
+      display: block;
+      text-align: right;
+    }
+  
+    th::before,
+    td::before {
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+    }
+  
+    th:last-child,
+    td:last-child {
+      border-bottom: 0;
+    }
+  }
+  

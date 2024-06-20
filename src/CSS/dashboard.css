@@ -1,0 +1,126 @@
+/* Responsive styles for Dashboard component */
+
+/* Common styles for all screen sizes */
+.dashboard-container {
+  padding: 20px;
+  width: 100%;
+  margin: 0 auto; /* Center the container horizontally */
+  font-family: 'Roboto', sans-serif; /* Utiliza una fuente atractiva */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave al contenedor */
+}
+
+.dashboard-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave al título */
+}
+
+.chart-title,
+.list-title {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.chart-wrapper {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave al contenedor del gráfico */
+  padding: 20px;
+  transition: box-shadow 0.3s ease; /* Agrega una transición suave a la sombra */
+}
+
+.chart-wrapper:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Cambia la sombra al hacer hover */
+}
+
+.list-wrapper {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave al contenedor de la lista */
+  padding: 20px;
+  transition: box-shadow 0.3s ease; /* Agrega una transición suave a la sombra */
+}
+
+.list-wrapper:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Cambia la sombra al hacer hover */
+}
+
+.certificate-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.certificate-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.certificate-name {
+  font-weight: bold;
+}
+
+.certificate-count {
+  color: #888;
+}
+
+/* Responsive styles */
+/* Smartphone */
+@media (max-width: 767px) {
+  .chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .chart-container .chart-wrapper {
+    margin: 10px 0;
+    width: 100%;
+  }
+  .list-wrapper {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .chart-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .chart-container .chart-wrapper {
+    margin: 15px;
+    width: 45%;
+  }
+  .list-wrapper {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+  .chart-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the charts horizontally */
+  }
+
+  .chart-container .chart-wrapper {
+    margin: 20px;
+    max-width: 45%; /* Two charts per row with some margin between */
+    margin-bottom: 50px;
+  }
+
+  .chart-container .list-wrapper {
+    margin: 20px;
+    max-width: 600px; /* Set maximum width for the list container */
+  }
+}

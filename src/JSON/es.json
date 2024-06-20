@@ -1,0 +1,147 @@
+{
+    "navbar": {
+      "home": "Inicio",
+      "certificates": "Certificados",
+      "myCertificates": "Mis Certificados",
+      "logOut": "Cerrar Sesión",
+      "logIn": "Iniciar Sesión",
+      "account": "Perfil",
+      "stats": "Estadísticas",
+      "admin": "Validación"
+    },
+    "hero": {
+      "title": "Portal de Certificaciones UAI"
+    },
+    "home": {
+      "title": "Información Certificaciones",
+      "content": "Aquí podrás encontrar certificados para tu especialidad y subir tus propias certificaciones."
+    },
+    "Footer":{
+      "content": "Todos los derechos reservados ©; 2024 UAI"
+    },
+    "Certificates":{
+      "title": "Certificaciones"
+    },
+    "Profile":{
+      "title": "Formulario Usuario",
+      "name": "Nombre",
+      "nickname": "Apodo",
+      "role": "Rol",
+      "career": "Carrera",
+      "save": "Guardar",
+      "stats": "Ver estadisticas"
+    },
+    "Upload":{
+      "title": "Sube tus certificados",
+      "form": "Titulo",
+      "upload": "Subir",
+      "uploaded": "Certificaciones Subidas",
+      "show": "Mostrar Certificación"
+    },
+    "careers": {
+      "title": "Carreras",
+      "careerNames": {
+        "0": "Ingeniería Industrial",
+        "1": "Ingeniería Informática",
+        "2": "Ingeniería en Minas",
+        "3": "Ingeniería Mecánica",
+        "4": "Ingeniería en Energía",
+        "5": "Ingeniería en obras civiles",
+        "6": "Bioingeniería"
+      }
+    },
+    "button":{
+      "language": "Idioma",
+      "spanish": "Español",
+      "english": "Inglés"
+    },
+    "form": {
+      "name": "Nombre",
+      "lastname": "Apellido",
+      "selectCareer": "Selecciona una carrera",
+      "loading": "Cargando...",
+      "createProfile": "Crear perfil"
+    },
+    "profile": {
+      "title": "Perfil de usuario",
+      "email": "Correo electrónico",
+      "name": "Nombre",
+      "lastname": "Apellido",
+      "career": "Carrera",
+      "editButton": "Editar perfil"
+    },
+    "admin":{
+      "title": "Panel de Certificados",
+      "admin2button": "Tipo de verificación",
+      "pdfname":"Nombre Certificado",
+      "username": "Nombre del usuario",
+      "career": "Carrera",
+      "vertype": "Tipo de verificación",
+      "status": "Estado",
+      "verification": "Verificado",
+      "link": "Link certificado",
+      "verbutton": "Verificar",
+      "viewpdf": "Abrir PDF",
+      "manual": "Manual",
+      "automatic": "Automático",
+      "alerttitle": "Confirmación de Verificación",
+      "alertInfo": "¿Está seguro que desea verificar este certificado? No podrá deshacer esta acción.",
+      "alertyes": "Sí",
+      "alertno": "No",
+      "loading": "Se están cargando los datos..."
+    },
+    "admin2":{
+      "title": "Certificados de",
+      "pdfname":"Nombre Certificado",
+      "vertype": "Tipo de verificación",
+      "manual": "Manual",
+      "automatic": "Automático"
+
+    },
+    "login":{
+      "title": "Iniciar sesión",
+      "email": "Correo",
+      "password": "Contraseña",
+      "text": "¿No tienes cuenta?",
+      "signup": "Crear cuenta",
+      "submitbutton": "Ingresar"
+
+    },
+    "signup":{
+      "title": "Crear Cuneta",
+      "email": "Correo",
+      "password": "Contraseña",
+      "text": "¿Ya tienes cuenta?",
+      "login": "Iniciar Sesión",
+      "submitbutton": "Crear",
+      "alert": "Revise su mail, para el link de verificación"
+
+    },
+    "mycertificates":{
+      "filebutton":"Subir Certificado",
+      "uploadefile": "Subir Certificado",
+      "file": "no hay archivo seleccionado",
+      "filename": "Seleccione un nombre para el archivo",
+      "myfiles": "Mis Certificados",
+      "pdfname": "Nombre Certificado",
+      "link": "Link Certificado",
+      "verificate": "Estado",
+      "viewpdf": "Abrir PDF",
+      "verificateyes": "Verificado",
+      "verificateno": "No verificado",
+      "uploading": "Subiendo Certificado"
+
+
+     
+    },
+    "dashboard":{
+      "title": "Dashboard Analitico",
+      "chart1": "Numero de Estudiantes por Carrera",
+      "chart2": "Numero de Certificaciones por Carrera",
+      "chart3": "Certificaciones Mas Comunes",
+      "chart4": "Cantidad de Certificados subidos",
+      "user": "Usado por",
+      "user2": "usuarios"
+    }
+  
+  }

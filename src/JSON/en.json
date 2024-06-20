@@ -1,0 +1,144 @@
+{
+    "navbar": {
+      "home": "Home",
+      "certificates": "Certificates",
+      "myCertificates": "My Certificates",
+      "logOut": "Log Out",
+      "logIn": "Log In",
+      "account": "Profile",
+      "stats": "Dashboards",
+      "admin": "Validation"
+
+    },
+    "hero": {
+      "title": "UAI Certification Portal"
+    },
+    "home": {
+      "title": "Certifications information",
+      "content": "Here you can find certificates for your specialty and upload your own certifications."
+    },
+    "Footer":{
+      "content": "All rights reserved ©; 2024 UAI"
+    },
+    "Certificates":{
+      "title": "Certificates"
+    },
+    "Profile":{
+      "title": "User Form",
+      "name": "Name",
+      "nickname": "Nickname",
+      "role": "Role",
+      "career": "Career",
+      "save": "Save",
+      "stats": "See Statistics"      
+    },
+    "Upload":{
+      "title": "Upload your Certifications",
+      "form": "Title",
+      "upload": "Upload",
+      "uploaded": "Uploaded Certifications",
+      "show": "Show Certifications"
+    },
+    "careers": {
+      "title": "Careers",
+      "careerNames": {
+        "0": "Industrial Engineering",
+        "1": "Computer Engineering",
+        "2": "Mining Engineering",
+        "3": "Mechanical Engineering",
+        "4": "Energy Engineering",
+        "5": "Civil Engineering",
+        "6": "Bioengineering"
+      }
+    },
+    "button":{
+      "language": "Language",
+      "spanish": "Spanish",
+      "english": "English"
+    },
+    "form": {
+      "name": "Name",
+      "lastname": "Last Name",
+      "selectCareer": "Select a career",
+      "loading": "Loading...",
+      "createProfile": "Create Profile"
+    },
+    "profile": {
+      "title": "User Profile",
+      "email": "Email",
+      "name": "Name",
+      "lastname": "Last Name",
+      "career": "Career",
+      "editButton": "Edit profile"
+    },
+      "admin": {
+        "title": "Certificates Panel",
+        "admin2button": "Verification Type",
+        "pdfname": "Certificate Name",
+        "username": "User Name",
+        "career": "Career",
+        "vertype": "Verification Type",
+        "status": "Status",
+        "verification": "Verified",
+        "link": "Certificate Link",
+        "verbutton": "Verify",
+        "viewpdf": "Open PDF",
+        "manual": "Manual",
+        "automatic": "Automatic",
+        "alerttitle": "Verification Confirmation",
+        "alertInfo": "Are you sure you want to verify this certificate? You will not be able to undo this action.",
+        "alertyes": "Yes",
+        "alertno": "No",
+        "loading": "Data is being loaded..."
+      },
+      "admin2": {
+        "title": "Certificates of",
+        "pdfname": "Certificate Name",
+        "vertype": "Verification Type",
+        "manual": "Manual",
+        "automatic": "Automatic"
+      },
+      "login": {
+        "title": "Login",
+        "email": "Email",
+        "password": "Password",
+        "text": "Don't have an account?",
+        "signup": "Sign Up",
+        "submitbutton": "Login"
+      },
+      "signup": {
+        "title": "Sign Up",
+        "email": "Email",
+        "password": "Password",
+        "text": "Already have an account?",
+        "login": "Login",
+        "submitbutton": "Sign Up",
+        "alert": "Check your email for the verification link"
+      },
+      "mycertificates": {
+        "filebutton": "Upload Certificate",
+        "uploadefile": "Uploade File",
+        "file": "No file selected",
+        "filename": "Select  file name",
+        "myfiles": "My Certificates",
+        "pdfname": "Certificate Name",
+        "link": "Certificate Link",
+        "verificate": "Status",
+        "viewpdf": "Open PDF",
+        "verificateyes": "Verified",
+        "verificateno": "Not Verified",
+        "uploading": "Uploading Certificate"
+      },
+    
+     
+    "dashboard":{
+      "title": "Analytics Dashboard",
+      "chart1": "Number of Students Per Career",
+      "chart2": "Number of Certificates Per Career",
+      "chart4": "Number of Certificates Uploaded",
+      "chart3": "Most Common Certificates",
+      "user": "used by ",
+      "user2": "users"
+    }
+  
+  }

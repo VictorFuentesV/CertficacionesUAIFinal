@@ -1,0 +1,129 @@
+/* myCertificates.css */
+
+/* Styles for MyCertificates component */
+.my-certificates-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.my-certificates-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.my-certificates-input, .my-certificates-select, .my-certificates-button {
+  display: block;
+  width: 90%;
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.my-certificates-button {
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.my-certificates-button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.my-certificates-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+/* Table Styles */
+.my-certificates-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.my-certificates-table th, .my-certificates-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.my-certificates-table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.my-certificates-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.my-certificates-table tr:hover {
+  background-color: #e2e2e2;
+}
+
+.my-certificates-table a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.my-certificates-table a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .my-certificates-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .my-certificates-input, .my-certificates-select, .my-certificates-button {
+    width: 100%;
+  }
+
+  .my-certificates-table th, .my-certificates-table td {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 576px) {
+  .my-certificates-table thead {
+    display: none;
+  }
+
+  .my-certificates-table, .my-certificates-table tbody, .my-certificates-table tr, .my-certificates-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .my-certificates-table tr {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .my-certificates-table td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+  }
+
+  .my-certificates-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 15px;
+    font-weight: bold;
+    text-align: left;
+  }
+}
